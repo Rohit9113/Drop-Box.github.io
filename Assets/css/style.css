@@ -1,17 +1,21 @@
+/* Styling for the to-do box */
 #todo-box {
     margin-top: 2%;
     margin-left: 5%;
-}
-
-#multibox {
+    }
+    
+    /* Styling for the multi-box */
+    #multibox {
     display: flex;
-}
-
-.card-header {
+    }
+    
+    /* Styling for the card header */
+    .card-header {
     text-align: center;
-}
-
-.draggable {
+    }
+    
+    /* Styling for draggable elements */
+    .draggable {
     background-color: #35444c;
     color: #fff;
     padding: 10px;
@@ -20,35 +24,46 @@
     cursor: move;
     box-shadow: 2px 2px 5px #ccc;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.draggable:hover {
+    }
+    
+    /* Styling for the hover state of draggable elements */
+    .draggable:hover {
     background-color: #909294;
     background-color: rgb(5, 0, 0);
-}
-
-.draggable.dragging {
+    }
+    
+    /* Styling for the dragging state of draggable elements */
+    .draggable.dragging {
     opacity: 0.5;
-}
-
-.indicatio {
+    }
+    
+    /* Styling for the indication div */
+    .indicatio {
     margin-top: 1%;
     margin-left: 33%;
-}
-
-.lerntxt {
+    }
+    
+    /* Styling for the learn text */
+    .lerntxt {
     text-align: center;
     margin-top: 1%;
-}
-
-h5 {
+    }
+    
+    /* Styling for the h5 element */
+    h5 {
     text-align: center;
-}
-
-.headinc {
+    }
+    
+    /* Styling for the header with an accent */
+    .headinc {
     text-align: center;
     margin-top: 2%;
     font-weight: bold;
     font-size: 18px;
     background-color: aqua;
-}
+    }
+    
+    
+    
+    
+    
