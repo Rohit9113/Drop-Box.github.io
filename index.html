@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets\css\style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Kalvium Assignment</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="Assets\images\drag-and-drop-white.svg" alt="" width="30" height="24">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <main>
+        <p class="headinc">Drop Your Favorate Coding Languages and Unlike Coding Languages</p>
+        <div id="multibox">
+            <div class="card dropzone" style="width: 18rem;" id="todo-box">
+                <div class="card-header">
+                    <b>Top 10 Coding Languages</b>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <div class="draggable" draggable="true" id="draggable1">JAVA</div>
+                    <div class="draggable" draggable="true" id="draggable1">Python</div>
+                    <div class="draggable" draggable="true" id="draggable1">JavaScript</div>
+                    <div class="draggable" draggable="true" id="draggable1">C++</div>
+                    <div class="draggable" draggable="true" id="draggable1">PHP</div>
+                    <div class="draggable" draggable="true" id="draggable1">Ruby</div>
+                    <div class="draggable" draggable="true" id="draggable1">Swift</div>
+                    <div class="draggable" draggable="true" id="draggable1">C#</div>
+                    <div class="draggable" draggable="true" id="draggable1">Kotlin </div>
+                    <div class="draggable" draggable="true" id="draggable1">Go </div>
+                </ul>
+            </div>
+
+            <div class="card dropzone" style="width: 18rem;" id="todo-box">
+                <div class="card-header">
+                    <b>Favorate Coding Languages</b>
+                </div>
+                <ul class="list-group list-group-flush">
+                    
+                </ul>
+            </div>
+            <div class="card dropzone" style="width: 18rem;" id="todo-box">
+                <div class="card-header">
+                    <b>Unlike Coding Languages</b>
+                </div>
+                <ul class="list-group list-group-flush">
+
+                </ul>
+            </div>
+        </div>
+
+        <h3 class="lerntxt">How to use</h3>
+        <div class="indicatio">
+            <img src="Assets\images\9vc6pp06br8bivo7nju8.gif" alt="" width="400" height="200">
+        </div>
+    </main>
+
+    <script src="Assets\js\script.js"></script>
+</body>
+
+</html>
